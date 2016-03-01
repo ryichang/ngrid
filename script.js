@@ -10,7 +10,7 @@ app.factory('instagram', function($resource){
 			// The ngResource module $resource service.
 
 			var api = $resource('https://api.instagram.com/v1/media/popular?client_id=:client_id&callback=JSON_CALLBACK',{
-				client_id: '642176ece1e7445e99244cec26f4de1f'
+				client_id: '73fb6decac8745f5a35da5806200e676'
 			},{
 				// action which name "fetch". It issues
 				// an JSONP request to the URL of the resource. JSONP requires that the
